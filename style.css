@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+
+*{ 
+    padding : 50;
+    margin : 50;
+} 
+
+
+body {
+    background-color:#BCA88D; 
+    color:#113F67;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+strong {
+    color:#FDF5AA;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+
+.presentacion__contenido{
+    width: 780px;
+}
+
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Federant", serif;
+}
+
+.presentacion__contenido__lista{
+    font-size: 20px;
+    font-family: "Federant", serif;
+    
+}
+
+.presentacion__links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.presentacion__botones{
+    font-family: "Federant", serif;
+    width: 280px;
+    background-color: #A08963;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-size: 15;
+    font-weight: 600px;
+    text-decoration: none;
+    color: white
+
+}
+
+video {
+  border: 3px solid #333;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
