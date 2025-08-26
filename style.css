@@ -44,17 +44,33 @@ strong {
     justify-content: space-evenly;
 }
 
+.subtitulo_tiquetes{
+    font-family: "Federant", serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.icono-boton{
+    width: 50px;
+    height: 30px;
+    margin-right: 8px; 
+    vertical-align: middle;
+
+}
 .presentacion__botones{
     font-family: "Federant", serif;
-    width: 280px;
-    background-color: #A08963;
+    width: 200px;
     text-align: center;
     padding: 21.5px 0;
     border-radius: 16px;
-    font-size: 15;
+    font-size: 15px;
     font-weight: 600px;
     text-decoration: none;
-    color: white
+    color: #FDF5AA;
+    border: 5px solid #A08963;
 
 }
 
@@ -62,7 +78,8 @@ video {
   border: 3px solid #333;
   border-radius: 5px;
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 100%;
 }
+
 
